@@ -1,0 +1,380 @@
+* {
+  box-sizing:border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  font-size: 27.4px;
+  font-weight: bold;
+  color: #082b48;
+  padding-bottom: 46.5px;
+}
+
+body {
+  font-family: "verdana","ヒラギノ角ゴシック",sans-serif;
+}
+
+.container {
+  padding: 0 72px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  margin-bottom: 0.5px;
+}
+
+.header-left {
+  float: left;
+  padding: 25px 0;
+}
+
+.header-left h1 {
+  font-size: 23.5px;
+  font-weight: bold;
+  margin-left: 89px;
+  color: #082b48;
+}
+
+
+.header-right {
+  float: right;
+  margin-right: 122px;
+}
+
+.menu a{
+  display: inline-block;
+  color: #000000;
+  font-weight: 700;
+  line-height: 71px;
+  font-size: 14.7px;
+  margin-top: -1px;
+}
+
+/* 最初の2つ */
+.menu :nth-child(-n+2){
+  padding-right: 41.3px;
+}
+
+
+main {
+  background-image: url("../img/main-vsual.png");
+  background-size: contain;
+  display: table;
+  width:100%;
+  height: 405px;
+}
+
+.main-text {
+  display: none;
+}
+
+.sp {
+  display: none;
+}
+
+.pc{
+  display: block;
+}
+
+.about-wrapper {
+  display: inline-block;
+}
+
+.about h2 {
+  padding-top: 61.5px;
+}
+
+.about {
+  margin: 0 89px;
+  margin-top: -4px;
+}
+
+.about img {
+  float: left;
+  width: 47.96%;
+  margin-right: 38.5px;
+}
+
+.about p {
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 23.8px;
+  letter-spacing: -0.35px;
+  color: #082b48;
+}
+
+
+.corse-wrapper {
+  text-align: center;
+}
+
+.corse-wrapper h2 {
+  padding-top: 85px;
+}
+
+.corses {
+  margin: 0 38.5px;
+}
+
+.corse {
+  display: inline-block;
+  text-align: left;
+  width: 33.1%;
+  margin-right:  -35px;
+}
+
+.corses:last-child {
+  margin-right: -4px;
+}
+
+
+.corse img{
+  width: 78.8%;
+}
+
+.corse p {
+  text-align: left;
+  padding-top: 4px;
+  letter-spacing: -0.2px;
+  color: #082b48;
+}
+
+.form-wrapper {
+  text-align: center;
+   margin-bottom: 120px;
+}
+
+.form-wrapper h2{
+  padding-top: 88.6px;
+  padding-bottom: 48.2px;
+}
+
+.form-wrapper P {
+  color:#082b48;
+  font-size: 15.7px;
+  font-weight: 500;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail-form {
+  color: #757575;
+  font-size: 15.5px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  width: 589px;
+  height: 54.5px;
+  border: #d8d8d8 solid 3px;
+  border-radius: 50px;
+  padding-left: 11px;
+  margin: 5px 0 24.1px 0;
+}
+
+.submit-form {
+  color: white;
+  font-size: 23.4px;
+  font-weight: bold;
+  background-color: #ec6d64;
+  border: none;
+  padding: 21.5px 113px;
+  border-radius: 3px;
+  margin-bottom: -2.83px;
+}
+
+footer {
+  margin: 0 auto;
+  width: 75%;
+  border-top: 1px #cccccc solid;
+}
+
+footer P {
+  padding: 23px 0 58px 0;
+  text-align: right;
+  font-size: 11.8px;
+  color: #444444;
+}
+
+@media(max-width: 690px){
+  .container {
+    padding: 0 34.5px;
+  }
+
+  .header-left {
+    float: none;
+  }
+  .header-left h1 {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 16.4pt;
+    font-size: 33.2pt;
+  }
+  .header-right {
+    float: none;
+    margin-right: 0;
+  }
+  .menu {
+    margin-top: -4.7pt;
+    text-align: center;
+    margin-left: 12.6pt;
+  }
+  .menu a {
+    font-size: 17.9pt;
+    font-weight: 700;
+    margin-top: 0px;
+  }
+  .menu :nth-child(-n+2){
+  padding-right: 46.6px;
+  }
+
+  main img{
+    display: none;
+  }
+  main {
+    margin-top: 12px;
+    width: 100%;
+    height: 883px;
+    background-image: url("../img/main-vsual-nontitle.png");
+    background-size: cover;
+  }
+
+  .main-text {
+    display: table-cell;
+    vertical-align: middle;
+    color: #082b48;
+    text-align: center;
+  }
+  .main-text h1{
+    font-family: "verdana","ヒラギノ角ゴシック";
+    font-size:44.6pt;
+    letter-spacing: -0.55px;
+    line-height: 66pt;
+    font-weight: 600;
+    margin-bottom: 38.5px;
+    margin-top: 0px;
+  }
+
+  .main-text p {
+    font-size:19.3pt;
+    line-height: 29.9pt;
+    font-weight: 300;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .pc{
+    display: none;
+  }
+
+
+  h2 {
+    font-size: 36.8px;
+    font-weight: 600;
+    padding-bottom: 65px;
+  }
+
+  .about {
+    margin: 0;
+  }
+
+  .about h2{
+    padding-top: 167px;
+  }
+
+  .about img {
+    float: none;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .about p {
+    padding-top: 38px;
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    line-height: 39px;
+    color: #0a2f4d;
+  }
+
+  .corse-wrapper h2{
+    padding-top: 119px;
+  }
+
+  .corses{
+    margin: 0;
+  }
+
+  .corses:last-child{
+    margin-right: 0;
+  }
+
+  .corse {
+    display: block;
+    margin-right: 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .corse img{
+    margin-top: -2px;
+    width: 100%;
+  }
+
+  .corse p {
+    font-size: 26.1px;
+    padding: 6px 0 46px 0;
+  }
+
+  .form-wrapper h2 {
+    padding-top: 118px;
+    padding-bottom: 70px;
+  }
+
+  .form-wrapper p {
+    font-size: 25.7px;
+    font-weight: 300;
+  }
+
+  .form {
+    width: 100%
+  }
+  .mail-form {
+    width: 100%;
+    height: 103.5px;
+    margin: 44px 0 45px 0;
+    border: #d8d8d8 solid 6px;
+    font-size: 33px;
+    font-weight: 500;
+    padding-left: 18px;
+  }
+
+  .submit-form {
+    font-size: 44px;
+    border-radius: 7px;
+    padding: 40px 25.2%;
+    margin-bottom: 82px;
+  }
+
+  footer {
+    border-top: 3px #dddada solid;
+    width: 90%;
+  }
+
+  footer p {
+    font-size: 18.4px;
+    text-align: center;
+    padding: 41px 0 50px 0;
+  }
+
+}
