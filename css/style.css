@@ -16,6 +16,7 @@ h2 {
 
 body {
   font-family: "verdana","ヒラギノ角ゴシック",sans-serif;
+  width: 1280px;
 }
 
 .container {
@@ -205,6 +206,10 @@ footer P {
 }
 
 @media(max-width: 690px){
+  body{
+    width: 690px;
+  }
+  
   .container {
     padding: 0 34.5px;
   }
